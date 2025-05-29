@@ -32,7 +32,7 @@ const stats = [
 
 export default function AboutUs() {
   return (
-    <section id="about" className="py-20 bg-gray-50 pt-60">
+    <section id="about" className="py-20 bg-gray-50 pt-15">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-2 bg-primary/10 text-primary text-sm font-medium rounded-full mb-4">

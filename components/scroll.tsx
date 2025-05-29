@@ -54,7 +54,7 @@ const Panels: React.FC = () => {
   return (
     <>
       {/* Description Section */}
-      <div className="panel bg-black text-gray-100 flex items-center justify-center min-h-screen text-center p-4 sm:p-8 relative overflow-hidden">
+      {/* <div className="panel bg-black text-gray-100 flex items-center justify-center min-h-screen text-center p-4 sm:p-8 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/subtle-white-feathers.png')] opacity-10"></div>
         <div className="absolute inset-0">
           {[...Array(10)].map((_, i) => (
@@ -101,7 +101,7 @@ const Panels: React.FC = () => {
             <div className="w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-gray-200 mt-2 animate-bounce" />
           </motion.div>
         </div>
-      </div>
+      </div> */}
 
       {/* Section ONE */}
       <section className="panel bg-gradient-to-br from-gray-50 to-gray-100 text-gray-900 flex items-center min-h-screen px-4 sm:px-8 py-8 sm:py-12 relative overflow-hidden">
@@ -125,7 +125,7 @@ const Panels: React.FC = () => {
         </div>
         <div className="container mx-auto flex flex-col md:flex-row items-center relative z-10 gap-6 sm:gap-8">
           <motion.div
-            className="w-full md:w-1/2 p-4 sm:p-6 bg-white rounded-lg shadow-lg order-2 md:order-1"
+            className="w-full md:w-1/2 p-3 sm:p-6 bg-[#2e2e38] rounded-lg shadow-lg order-2 md:order-1"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
