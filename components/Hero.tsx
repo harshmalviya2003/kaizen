@@ -15,8 +15,8 @@ export default function Hero() {
           poster="/video-poster.webp"
           aria-hidden="true"
         >
-          <source src="/3-720p.mp4" type="video/mp4" media="(max-width: 768px)" />
-          <source src="/3-1080p.mp4" type="video/mp4" />
+          <source src="/3.mp4" type="video/mp4" media="(max-width: 768px)" />
+          <source src="/3.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/80" />
